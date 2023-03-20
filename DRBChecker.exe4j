@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="9.0" transformSequenceNumber="3">
+  <directoryPresets config="G:/DRBChecker/out/artifacts/DRBChecker_jar" />
+  <application name="drb-checker" distributionSourceDir="G:/DRBChecker/dist" />
+  <executable name="DRBCheker" iconSet="true" iconFile="G:/DRBChecker/icon.ico" executableDir="." redirectStderr="false" executableMode="console" singleInstance="true">
+    <versionInfo include="true" fileVersion="1.0.0.0" fileDescription="检查DR3的谱面文件是否合法" legalCopyright="©JIMENGAME 2023" internalName="DRBChecker" companyName="JIMENGAME" productVersion="1.0.0.0" />
+  </executable>
+  <java mainClass="Main" minVersion="1.8" maxVersion="17" allowBetaVM="true">
+    <classPath>
+      <archive location="G:/DRBChecker/out/artifacts/DRBChecker_jar/DRBChecker.jar" failOnError="false" />
+    </classPath>
+  </java>
+</exe4j>

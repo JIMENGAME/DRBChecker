@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="DRBChecker:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DRBChecker_jar</output-path>
+    <root id="root">
+      <element id="archive" name="DRBChecker.jar">
+        <element id="module-output" name="DRBChecker" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
